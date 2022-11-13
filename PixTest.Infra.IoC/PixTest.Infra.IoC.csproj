@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PixTest.Application\PixTest.Application.csproj" />
+    <ProjectReference Include="..\PixTest.Domain\PixTest.Domain.csproj" />
+    <ProjectReference Include="..\PixTest.Infra.Data\PixTest.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
